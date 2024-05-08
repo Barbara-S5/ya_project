@@ -1,11 +1,9 @@
 
-```mermaid 
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
 
-%% A[firstopinion] -->|arrguments| B(Secondopiniom)
-B --> C{fight}
-C -->|UnitedDecision| D[Santias]
-C -->|OwnOpinion| E[Angry on each other]
-
+%% стрелка без текста для примера: 
+  A --> B;
 ```
-
-
