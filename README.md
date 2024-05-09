@@ -3,12 +3,12 @@
 [:bee:](Markdown.md 'Интересная статья')
 
 ```mermaid
-
-pie TD
-    Любимый транспорт
-    "Трамвай" : 42.96
-    "Метро" : 50.05
-    "Автобус" : 10.01
-    "Троллейбус" :  5
+%%{init: {"pie": {"textPosition": 0.5}, "themeVariables": {"pieOuterStrokeWidth": "5px"}} }%%
+pie showData
+    title Key elements in Product X
+    "Calcium" : 42.96
+    "Potassium" : 50.05
+    "Magnesium" : 10.01
+    "Iron" :  5
 
 ```
