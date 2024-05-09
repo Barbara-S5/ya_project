@@ -4,10 +4,10 @@
 
 ```mermaid
 pie showData
-    title Key elements in Product X
-    "Calcium" : 42.96
-    "Potassium" : 50.05
-    "Magnesium" : 10.01
-    "Iron" :  5
+    title Любимый транспорт
+    "Трамвай" : 42.96
+    "Машина" : 50.05
+    "Метро" : 10.01
+    "Автобус" :  5
 
 ```
